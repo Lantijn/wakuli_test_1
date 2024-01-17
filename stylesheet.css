@@ -1,0 +1,195 @@
+@font-face {
+    font-family: "Citrus Regular";
+    src: url(fonts/CitrusGothic-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Citrus Shadow";
+    src: url(fonts/CitrusGothicShadow-Italic.ttf);
+}
+
+@font-face {
+    font-family: "Citrus Inline";
+    src: url(fonts/CitrusGothicInline-Regular.ttf);
+}
+
+header{
+    background-color: #0f222d;
+}
+
+body{
+    background-color: #E8E7E2;
+    margin: 0%;
+}
+
+h1{
+   font-size: 500%;
+   font-family: "Citrus Shadow"; 
+   text-align: center;
+   background-color: #0f222d;
+   color: #e0d9bb;
+   padding-top: 4%;
+   padding-bottom: 4%;
+   margin: 0%;
+}
+
+h1 a{
+    color: #e0d9bb;
+}
+
+h3.content, .parent, .slides, .element, .content, content > img{
+    margin: 0;
+}
+
+
+h2{
+    font-size: 3em;
+    font-family: "Citrus Regular"; 
+    font-weight: 1;
+    text-align: center;
+    background-color: #00423d;
+    color: #e0d9bb;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    margin: 0%;
+}
+
+article{
+    font-family: "Citrus Regular";
+}
+
+/* bronvermelding voor slideshow: https://www.tutorialspoint.com/programming-a-slideshow-with-html-and-css */
+.parent { width: 100vw; overflow: hidden;}
+
+.element { width: 100vw; float: left;}
+
+.slides { width: calc(100vw * 4); animation: slideShow 25s ease infinite;}
+
+h3 img{
+width: 100vw;
+height: auto;
+}
+
+@keyframes slideShow {
+   20% {margin-left: 0px;}
+   40% {margin-left: calc(-100vw * 1);}
+   60% {margin-left: calc(-100vw * 2);}
+   80% {margin-left: calc(-100vw * 3);}
+}
+
+.foto{
+    display: block;
+    width: 100%;
+}
+
+.doel p{
+    text-align: center;
+    padding-left: 8vw;
+    padding-right: 8vw;
+}
+
+article p{
+    font-size: 1em;  
+}
+
+.productimg{
+    width: 20vw;
+    height: fit-content;
+    margin-top: 10vw;
+    margin-left: 4vw;
+}
+
+article li{
+    font-size: 1.1em;
+    /* font-weight: 600; */
+    background-color: #00423d;
+    color: #e0d9bb;
+    border-radius: 8px;
+    padding: 2%;
+}
+
+li::marker{
+    color:#00423d;
+}
+
+article ol{
+    width: 85vw;
+    padding-top: 0;
+    padding-left: 8.5vw;
+}
+
+.rechts{
+    text-align: end;
+}
+
+.links p{
+    margin-right: 30vw;
+}
+
+.rechts p{
+    margin-left: 30vw;
+}
+    
+.product-flex{
+    display: flex;
+}
+
+iframe{
+    width: 98.9vw;
+    height: 80vw;   
+}
+
+.contact p{
+    margin: 2vw;
+    text-align: center;
+}
+
+.contact img{
+    width: 30vw;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+footer{
+    font-family: "Citrus Regular";
+    position: sticky;
+    bottom: 0;
+}
+
+.menu{
+    color: #362B1C;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    text-align: center;
+    display: none;
+}
+
+footer:hover .menu{
+    display: block;
+}
+
+footer{
+    background-color: #E8E7E2;
+    text-align: center;
+    display: block;
+    border-top: 4px solid #0f222d;
+    border-left: 4px solid #0f222d;
+    border-right: 4px solid #0f222d;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 5%;
+}
+
+footer p{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+hoe krijg ik de lijntjes tussen h1 en h2 weg?
+hoe krijg ik de padding om de slideshow weg?
+hoe krijg ik de footer geanimeerd naar boven?
+hoe krijg ik bij producten de foto's er mooi naast?
+hoe krijg ik bij duurzaam de cijfers naast te rechtse tekst?
+hoe krijg ik de teskt om de plaatjes heen bij producten en duurzaamheid?
